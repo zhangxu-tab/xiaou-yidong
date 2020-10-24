@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+@import "./public.css";
+
+@base: 100;
+// 中间图片区域
+.pic {
+    height: 750rem / @base;
+    .im1 {
+        width: 750rem / @base;
+        height: 420rem / @base;
+    }
+    .im2 {
+        width: 750rem / @base;
+        height: 327rem / @base;
+    }
+}
+// 图片详情区域
+.detail {
+    height: 185rem / @base;
+    background-color: #fff;
+    padding-top: 22rem / @base;
+    p {
+        margin-left: 37rem / @base;
+        margin-right: 46rem / @base;
+    }
+    .tit {
+        line-height: 48rem / @base;
+        font-size: 28rem / @base;
+        color: #333333;
+    }
+    .t1 {
+        line-height: 79rem / @base;
+        .money {
+            font-size: 24rem / @base;
+            color: #e3393a;
+        }
+        .zhu {
+            font-size: 20rem / @base;
+            color: #acacac;
+            margin-left: 18rem / @base;
+        }
+    }
+}
+// 商品结算区域
+.sum {
+    height: 400rem / @base;
+    background-color: #fff;
+    font-size: 24rem / @base;
+    color: #464646;
+    margin-top: 17rem / @base;
+    .cu {
+        display: flex;
+        justify-content: space-between;
+        height: 98rem / @base;
+        line-height: 98rem / @base;
+        border-bottom: 1rem / @base solid #f1f1f1;
+        padding: 0 21rem / @base 0 25rem / @base;
+        .cul {
+            .s1 {
+                display: inline-block;
+                width: 64rem / @base;
+                height: 35rem / @base;
+                line-height: 35rem / @base;
+                text-align: center;
+                font-size: 18rem / @base;
+                color: #b32718;
+                border: 1rem / @base solid #b32718;
+                border-radius: 4rem / @base;
+                margin-left: 15rem / @base;
+            }
+            .s2 {
+                font-size: 22rem / @base;
+                margin-left: 16rem / @base;
+            }
+        }
+        .cur {
+            width: 24rem / @base;
+            height: 98rem / @base;
+            background: url("../images/detail_images/arrow.jpg") no-repeat;
+            background-size: 24rem / @base 14rem / @base;
+            background-position: 0 44rem / @base;
+        }
+    }
+    .num {
+        display: flex;
+        justify-content: space-between;
+        height: 108rem / @base;
+        line-height: 108rem / @base;
+        border-bottom: 1rem / @base solid #f1f1f1;
+        padding: 0 21rem / @base 0 25rem / @base;
+        .numr {
+            width: 220rem / @base;
+            height: 57rem / @base;
+            line-height: 57rem / @base;
+            border: 1rem / @base solid #515151;
+            border-radius: 4rem / @base;
+            margin-right: 9rem / @base;
+            margin-top: 25rem / @base;
+            span {
+                display: inline-block;
+                width: 57rem / @base;
+                height: 57rem / @base;
+                text-align: center;
+            }
+            .shu {
+                width: 79rem / @base;
+                height: 57rem / @base;
+                border-left: 1rem / @base solid #515151;
+                border-right: 1rem / @base solid #515151;
+            }
+        }
+    }
+    .xing {
+        display: flex;
+        justify-content: space-between;
+        height: 149rem / @base;
+        padding: 41rem / @base 21rem / @base 0 25rem / @base;
+        .gui {
+            height: 59rem / @base;
+            line-height: 59rem / @base;
+            margin-top: 28rem / @base;
+            span {
+                display: inline-block;
+                height: 59rem / @base;
+                line-height: 59rem / @base;
+                text-align: center;
+            }
+            .name {
+                font-size: 22rem / @base;
+                color: #b4b4b4;
+            }
+            .ke1 {
+                width: 150rem / @base;
+                font-size: 20rem / @base;
+                color: #fff;
+                background-color: #e43a3d;
+                border-radius: 2rem / @base;
+                margin-left: 71rem / @base;
+            }
+            .ke2 {
+                width: 117rem / @base;
+                font-size: 20rem / @base;
+                color: #fff;
+                background-color: #e1e1e3;
+                border-radius: 2rem / @base;
+                margin-left: 15rem / @base;
+            }
+        }
+        .xingr {
+            width: 24rem / @base;
+            height: 98rem / @base;
+            background: url("../images/detail_images/arrow.jpg") no-repeat;
+            background-size: 24rem / @base 14rem / @base;
+        }
+    }
+}
+// 商品详情区域
+.juti {
+    min-width: 50rem / @base;
+    margin-top: 21rem / @base;
+    .ti {
+        height: 100rem / @base;
+        line-height: 100rem / @base;
+        background-color: #fff;
+        font-size: 28rem / @base;
+        color: #444;
+        padding-left: 25rem / @base;
+    }
+    .pi1 {
+        width: 750rem / @base;
+        height: 458rem / @base;
+    }
+    .pi2 {
+        width: 750rem / @base;
+        height: 648rem / @base;
+    }
+    .pi3 {
+        width: 750rem / @base;
+        height: 592rem / @base;
+    }
+    .pi4 {
+        width: 750rem / @base;
+        height: 350rem / @base;
+    }
+    .pi5 {
+        width: 750rem / @base;
+        height: 331rem / @base;
+    }
+}
+// 商品评价区域
+.ping {
+    min-height: 100rem / @base;
+    background-color: #fff;
+    margin-top: 30rem / @base;
+    .mu {
+        height: 93rem / @base;
+        line-height: 93rem / @base;
+        font-size: 28rem / @base;
+        color: #454545;
+        padding: 0 23rem / @base;
+        border-bottom: 1rem / @base solid #eee;
+    }
+    .midd {
+        height: 378rem / @base;
+        padding: 0 23rem / @base;
+        border-bottom: 1rem / @base solid #eee;
+        .num {
+            line-height: 55rem / @base;
+            font-size: 18rem / @base;
+            color: #676767;
+            margin-top: 14rem / @base;
+        }
+        .pin {
+            line-height: 54rem / @base;
+            font-size: 24rem / @base;
+            color: #868686;
+        }
+        figure {
+            margin-top: 19rem / @base;
+            .tu1 {
+                width: 154rem / @base;
+                height: 151rem / @base;
+                margin-left: 9rem / @base;
+            }
+            .tu2 {
+                width: 160rem / @base;
+                height: 151rem / @base;
+                margin: 0 19rem / @base;
+            }
+            .tu3 {
+                width: 154rem / @base;
+                height: 151rem / @base;
+            }
+        }
+        .riqi {
+            line-height: 76rem / @base;
+            font-size: 18rem / @base;
+            color: #999;
+            margin-top: 9rem / @base;
+        }
+    }
+    .word {
+        display: flex;
+        justify-content: space-between;
+        height: 91rem / @base;
+        line-height: 91rem / @base;
+        font-size: 22rem / @base;
+        color: #999;
+        padding: 0 23rem / @base;
+        .wordr {
+            img {
+                width: 11rem / @base;
+                height: 11rem / @base;
+                margin-top: 40rem / @base;
+                margin-left: 8rem / @base;
+            }
+        }
+    }
+    .shop {
+        display: flex;
+        height: 114rem / @base;
+        .car {
+            width: 172rem / @base;
+            height: 113rem / @base;
+            border-top: 1rem / @base solid #f1f1f1;
+            background: url("../images/public/icon_7.jpg") no-repeat;
+            background-size: 56rem / @base 53rem / @base;
+            background-position: 57rem / @base 30rem / @base;
+            .cir {
+                width: 24rem / @base;
+                height: 24rem / @base;
+                line-height: 24rem / @base;
+                text-align: center;
+                background-color: #e6393d;
+                font-size: 14rem / @base;
+                color: #fff;
+                border-radius: 50%;
+                margin-top: 22rem / @base;
+                margin-left: 90rem / @base;
+            }
+            p {
+                font-size: 18rem / @base;
+                color: #878787;
+                margin-top: 42rem / @base;
+                margin-left: 55rem / @base;
+            }
+        }
+        input {
+            width: 290rem / @base;
+            height: 114rem / @base;
+            background-color: #f26b11;
+            font-size: 26rem / @base;
+            color: #fff;
+        }
+        button {
+            width: 288rem / @base;
+            height: 114rem / @base;
+            background-color: #e43a3d;
+            font-size: 26rem / @base;
+            color: #fff;
+        }
+    }
+}

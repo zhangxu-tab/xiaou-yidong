@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import "public.css";
+.top {
+  display: flex;
+  justify-content: space-between;
+  height: 1.8rem;
+  background-color: #f26b11;
+  padding: 0.27rem 0.38rem 0 0.32rem;
+}
+.top .left {
+  display: flex;
+  width: 2.42rem;
+  height: 1.54rem;
+}
+.top .left .pic {
+  display: flex;
+  width: 1.54rem;
+  height: 1.54rem;
+  border-radius: 50%;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.top .left .pic img {
+  width: 1.42rem;
+  height: 1.42rem;
+  border-radius: 50%;
+}
+.top .left .txt {
+  width: 0.66rem;
+  height: 0.96rem;
+  margin-top: 0.34rem;
+  margin-left: 0.25rem;
+}
+.top .left .txt .p1 {
+  line-height: 0.52rem;
+  font-size: 0.28rem;
+  color: #fff;
+}
+.top .left .txt .p2 {
+  line-height: 0.44rem;
+  font-size: 0.2rem;
+  color: #2e1904;
+}
+.top button {
+  width: 1.59rem;
+  height: 0.71rem;
+  background-color: #fff;
+  border-radius: 0.03rem;
+  font-size: 0.24rem;
+  color: #f65d00;
+  margin-top: 0.48rem;
+}
+.midd {
+  display: flex;
+  justify-content: space-between;
+  height: 1.42rem;
+  background-color: #fff;
+}
+.midd .box {
+  width: 1.98rem;
+}
+.midd .box img {
+  margin-top: 0.35rem;
+  margin-left: 0.8rem;
+}
+.midd .box .pic1 {
+  width: 0.34rem;
+  height: 0.34rem;
+}
+.midd .box .pic2 {
+  width: 0.38rem;
+  height: 0.3rem;
+}
+.midd .box .pic3 {
+  width: 0.34rem;
+  height: 0.29rem;
+}
+.midd .box p {
+  font-size: 0.22rem;
+  color: #626262;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.content {
+  height: 7.16rem;
+  background-color: #fff;
+  margin-top: 0.2rem;
+}
+.content .row {
+  display: flex;
+  justify-content: space-between;
+  height: 1.11rem;
+  line-height: 1.11rem;
+  border-bottom: 0.01rem solid #d9d9d9;
+}
+.content .row .left img {
+  margin-top: 0.36rem;
+  margin-left: 0.37rem;
+}
+.content .row .left .pc1 {
+  width: 0.36rem;
+  height: 0.4rem;
+}
+.content .row .left .pc2 {
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.content .row .left .pc3 {
+  width: 0.46rem;
+  height: 0.32rem;
+}
+.content .row .left .pc4 {
+  width: 0.36rem;
+  height: 0.34rem;
+}
+.content .row .left .pc5 {
+  width: 0.38rem;
+  height: 0.36rem;
+}
+.content .row .left span {
+  font-size: 0.24rem;
+  color: #a3a3a3;
+  margin-left: 0.24rem;
+}
+.content .row .right span {
+  font-size: 0.22rem;
+  color: #f45f0d;
+  margin-right: 0.21rem;
+}
+.content .row .right img {
+  width: 0.19rem;
+  height: 0.26rem;
+  margin-right: 0.38rem;
+  margin-top: 0.45rem;
+}

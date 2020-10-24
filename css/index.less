@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+@import "./public.css";
+
+@base: 100;
+// 顶部区域
+header {
+    display: flex;
+    height: 85rem / @base;
+    padding: 43rem / @base 23rem /@base 0 24rem /@base;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    .logo>img {
+        width: 143rem / @base;
+        height: 33rem / @base;
+    }
+    .search {
+        input {
+            width: 305rem / @base;
+            height: 33rem / @base;
+            background-color: #eee;
+            text-align: center;
+            border-radius: 4rem / @base;
+        }
+    }
+    .set {
+        display: flex;
+        width: 55rem / @base;
+        justify-content: space-between;
+        span {
+            width: 12rem / @base;
+            height: 12rem / @base;
+            border-radius: 50%;
+            background-color: #0c0c0c;
+        }
+    }
+}
+// 导航区域
+nav {
+    ul {
+        display: flex;
+        height: 77rem / @base;
+        font-size: 26rem / @base;
+        color: #2c2c2c;
+        justify-content: space-around;
+        align-items: center;
+        border-top: 1rem / @base solid #e4e4e4;
+        background-color: #fff;
+        img {
+            width: 35rem / @base;
+            height: 21rem / @base;
+        }
+    }
+    ul .l1 {
+        position: relative;
+        height: 73rem / @base;
+        line-height: 73rem / @base;
+        border-bottom: 3rem / @base solid #ea0035;
+    }
+    ul .l1 a {
+        color: #ea0035;
+    }
+    ul .l1 span {
+        position: absolute;
+        display: inline-block;
+        width: 1rem / @base;
+        height: 32rem / @base;
+        background-color: #f1f1f1;
+        left: 80rem / @base;
+        top: 23rem / @base;
+    }
+    .pic img {
+        width: 750rem / @base;
+        height: 291rem / @base;
+    }
+}
+// 中间的分类组
+.fig {
+    height: 179rem / @base;
+    background-color: #fff;
+    border-bottom: 1rem / @base solid #ebebeb;
+    display: flex;
+    .box {
+        width: 750rem / @base / 4;
+        height: 179rem / @base;
+        text-align: center;
+        font-size: 22rem / @base;
+        color: #999;
+        img {
+            width: 64rem / @base;
+            height: 62rem / @base;
+            margin-top: 32rem / @base;
+        }
+        p {
+            margin-top: 20rem / @base;
+        }
+    }
+}
+// 限时秒杀区域
+.time {
+    display: flex;
+    height: 378rem / @base;
+    background-color: #fff;
+    margin-top: 32rem / @base;
+    .left {
+        width: 357rem / @base;
+        border-right: 1rem / @base solid #f0f0f0;
+        padding-left: 20rem / @base;
+        padding-top: 15rem / @base;
+        .title {
+            height: 36rem / @base;
+            line-height: 36rem / @base;
+            font-size: 28rem / @base;
+            color: #f63c6d;
+            font-weight: bold;
+            img {
+                width: 33rem / @base;
+                height: 31rem / @base;
+                margin-top: 3rem / @base;
+            }
+        }
+        p {
+            line-height: 29rem / @base;
+            font-size: 20rem / @base;
+            color: #868686;
+        }
+        .qian {
+            height: 46rem / @base;
+            .num {
+                display: inline-block;
+                width: 42rem / @base;
+                height: 42rem / @base;
+                line-height: 42rem / @base;
+                text-align: center;
+                font-size: 16rem / @base;
+                color: #fbfbfd;
+                background-color: #27272f;
+                border-radius: 4rem / @base;
+                margin-top: 2rem / @base;
+            }
+            .hao {
+                margin: 0 8rem / @base;
+                font-weight: bold;
+            }
+            .col {
+                display: inline-block;
+                width: 96rem / @base;
+                height: 40rem / @base;
+                line-height: 40rem / @base;
+                text-align: center;
+                background: url("../images/index_images/bg.jpg") no-repeat;
+                background-size: 96rem / @base 40rem / @base;
+                font-size: 24rem / @base;
+                color: #3c2a00;
+                margin-left: 27rem / @base;
+                margin-top: 4rem / @base;
+            }
+        }
+        .pc {
+            position: relative;
+            height: 252rem / @base;
+            background: url("../images/index_images/shop_5.jpg") no-repeat;
+            background-size: 236rem / @base 200rem / @base;
+            background-position: 60rem / @base 30rem / @base;
+            .cir {
+                position: absolute;
+                width: 84rem / @base;
+                height: 84rem / @base;
+                line-height: 84rem / @base;
+                text-align: center;
+                border-radius: 50%;
+                background-color: #ff327a;
+                font-size: 14rem / @base;
+                color: #fafffe;
+                right: 32rem / @base;
+                bottom: 25rem / @base;
+                span {
+                    font-size: 22rem / @base;
+                }
+            }
+        }
+    }
+    .right {
+        width: 372rem / @base;
+        .tit {
+            height: 173rem / @base;
+            padding-top: 15rem / @base;
+            border-bottom: 1rem / @base solid #efefef;
+            padding-left: 18rem / @base;
+            background: url("../images/index_images/shop_1.jpg") no-repeat;
+            background-size: 128rem / @base 178rem / @base;
+            background-position: 214rem / @base 5rem / @base;
+            .mu {
+                height: 36rem / @base;
+                line-height: 36rem / @base;
+                font-size: 28rem / @base;
+                color: #fd2264;
+                font-weight: bold;
+                span {
+                    display: inline-block;
+                    width: 32rem / @base;
+                    height: 23rem / @base;
+                    line-height: 23rem / @base;
+                    text-align: center;
+                    font-size: 16rem / @base;
+                    color: #f4f5f7;
+                    background-color: #f51a5e;
+                    margin-left: 10rem / @base;
+                }
+            }
+            .dian {
+                line-height: 29rem / @base;
+                font-size: 20rem / @base;
+                color: #888;
+            }
+            img {
+                width: 93rem / @base;
+                height: 32rem / @base;
+                margin-top: 23rem / @base;
+            }
+        }
+        .dis {
+            display: flex;
+            height: 189rem / @base;
+            div {
+                width: 187rem / @base;
+                height: 189rem / @base;
+            }
+            .disl {
+                border-right: 1rem / @base solid #f0f0f0;
+            }
+            .p1 {
+                line-height: 36rem / @base;
+                font-size: 26rem / @base;
+                color: #f34e86;
+                margin-top: 18rem / @base;
+                margin-left: 18rem / @base;
+            }
+            .p2 {
+                line-height: 29rem / @base;
+                font-size: 20rem / @base;
+                color: #858585;
+                margin-left: 18rem / @base;
+            }
+            .im1 {
+                width: 64rem / @base;
+                height: 102rem / @base;
+                margin-left: 58rem / @base;
+                margin-top: 5rem / @base;
+            }
+            .im2 {
+                width: 104rem / @base;
+                height: 88rem / @base;
+                margin-top: 13rem / @base;
+                margin-left: 43rem / @base;
+            }
+        }
+    }
+}
+// 插图区域
+.cha {
+    height: 148rem / @base;
+    margin-top: 32rem / @base;
+    background: #f8edcf url("../images/index_images/cts-200713182914678.png") no-repeat;
+    background-size: 224rem / @base 165rem / @base;
+    background-position: 469rem / @base 13rem / @base;
+    padding-top: 40rem / @base;
+    h1 {
+        font-size: 34rem / @base;
+        margin-left: 50rem / @base;
+    }
+    p {
+        font-size: 24rem / @base;
+        color: #202214;
+        margin-left: 50rem / @base;
+    }
+}
+// 主要内容区
+.content {
+    height: 1105rem / @base;
+    background-color: #fff;
+    margin-top: 30rem / @base;
+    padding-top: 20rem / @base;
+    ul {
+        display: flex;
+        width: 710rem / @base;
+        height: 70rem / @base;
+        font-size: 28rem / @base;
+        margin-left: 20rem / @base;
+        li {
+            width: 176rem / @base;
+            height: 68rem / @base;
+            line-height: 68rem / @base;
+            text-align: center;
+            border: 1rem / @base solid #e4e4e4;
+            border-left: none;
+            a {
+                color: #292929;
+            }
+        }
+        .n1 {
+            width: 178rem / @base;
+            height: 70rem / @base;
+            background-color: #f26b11;
+            a {
+                color: #f8faf9;
+            }
+        }
+    }
+    .picture {
+        width: 708rem / @base;
+        margin-left: 20rem / @base;
+        .box {
+            width: 708rem / @base;
+            height: 300rem / @base;
+            background: url("../images/index_images/shop_4.jpg") no-repeat;
+            background-size: 216rem / @base 220rem / @base;
+            background-position: 40rem / @base 52rem / @base;
+            box-shadow: 0 1rem / @base 5rem / @base 3rem / @base rgba(0,0,0,0.1);
+            p {
+                margin-left: 307rem / @base;
+            }
+            .x1 {
+                line-height: 57rem / @base;
+                font-size: 30rem / @base;
+                color: #2d2d2d;
+                margin-top: 29rem / @base;
+            }
+            .x2 {
+                line-height: 51rem / @base;
+                font-size: 18rem @base;
+                color: #eb3037;
+                span {
+                    font-size: 24rem / @base;
+                }
+            }
+            .x3 {
+                line-height: 60rem / @base;
+                font-size: 22rem / @base;
+                color: #929292;
+            }
+            input {
+                width: 164rem / @base;
+                height: 52rem / @base;
+                background-color: #f26b11;
+                font-size: 22rem / @base;
+                color: #f9ffff;
+                border-radius: 4rem / @base;
+                margin-left: 307rem / @base;
+                margin-top: 12rem / @base;
+            }
+        }
+        .box1 {
+            margin-top: 24rem / @base;
+        }
+        .box2 {
+            background: url("../images/index_images/xifa_03.jpg") no-repeat;
+            background-size: 213rem / @base 116rem / @base;
+            margin-top: 32rem / @base;
+            background-position: 40rem / @base 52rem / @base;
+        }
+        .box3 {
+            background: url("../images/index_images/xifa_06.jpg") no-repeat;
+            background-size: 213rem / @base 184rem / @base;
+            margin-top: 32rem / @base;
+            background-position: 40rem / @base 52rem / @base;
+        }
+    }
+}

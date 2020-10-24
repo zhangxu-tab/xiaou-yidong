@@ -1,0 +1,217 @@
+@charset "utf-8";
+@import "public.css";
+.inform {
+  display: flex;
+  justify-content: space-between;
+  height: 1.38rem;
+  background-color: #fff;
+  padding: 0.12rem 0.3rem 0 0.29rem;
+}
+.inform .left {
+  width: 6.39rem;
+  font-size: 0.22rem;
+  color: #606060;
+}
+.inform .left .man {
+  display: flex;
+  justify-content: space-between;
+  height: 0.47rem;
+  line-height: 0.47rem;
+}
+.inform .left .man .manr {
+  margin-right: 0.14rem;
+}
+.inform .left .pos {
+  line-height: 0.3rem;
+  margin-top: 0.1rem;
+}
+.inform img {
+  width: 0.15rem;
+  height: 0.24rem;
+  margin-top: 0.52rem;
+}
+.goods {
+  height: 3.62rem;
+  background-color: #fff;
+  font-size: 0.22rem;
+  margin-top: 0.12rem;
+  padding: 0 0.26rem 0 0.24rem;
+}
+.goods .box1 {
+  display: flex;
+  justify-content: space-between;
+  height: 1.27rem;
+}
+.goods .box1 .box1l {
+  display: flex;
+}
+.goods .box1 .box1l img {
+  width: 1.01rem;
+  height: 1rem;
+  margin-top: 0.23rem;
+  margin-left: 0.1rem;
+}
+.goods .box1 .box1l .txt {
+  color: #666;
+  margin-top: 0.2rem;
+  margin-left: 0.29rem;
+}
+.goods .box1 .box1l .txt .p1 {
+  line-height: 0.48rem;
+}
+.goods .box1 .box1l .txt .p2 {
+  line-height: 0.43rem;
+  color: #bbb;
+}
+.goods .box1 .box1r {
+  font-size: 0.18rem;
+  color: #e7343a;
+  margin-top: 0.43rem;
+  margin-right: 0.06rem;
+}
+.goods .box1 .box1r span {
+  font-size: 0.28rem;
+}
+.goods .num {
+  display: flex;
+  justify-content: space-between;
+  height: 1.39rem;
+  border-bottom: 0.01rem solid #f0f0f0;
+}
+.goods .num p {
+  line-height: 0.22rem;
+  color: #646464;
+  padding-top: 0.53rem;
+}
+.goods .num .shu {
+  display: flex;
+  justify-content: space-between;
+  width: 2.9rem;
+  margin-top: 0.34rem;
+}
+.goods .num .shu .kua {
+  border: 0.01rem solid #535353;
+  border-radius: 0.04rem;
+  font-size: 0.3rem;
+  color: #414141;
+}
+.goods .num .shu .kua1 {
+  width: 0.73rem;
+  height: 0.63rem;
+  line-height: 0.63rem;
+  text-align: center;
+}
+.goods .num .shu .kua2 {
+  width: 1.17rem;
+  height: 0.63rem;
+  line-height: 0.63rem;
+  text-align: center;
+}
+.goods .way {
+  display: flex;
+  justify-content: space-between;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  color: #676767;
+}
+.youhui {
+  height: 2.05rem;
+  background-color: #fff;
+  font-size: 0.22rem;
+  color: #676767;
+  margin-top: 0.12rem;
+}
+.youhui .quan {
+  display: flex;
+  justify-content: space-between;
+  height: 1.01rem;
+  line-height: 1.01rem;
+  border-bottom: 0.02rem solid #f1f1f1;
+}
+.youhui .quan .quanl {
+  margin-left: 0.27rem;
+}
+.youhui .quan .quanr {
+  margin-right: 0.37rem;
+}
+.youhui .jifen {
+  display: flex;
+  justify-content: space-between;
+  height: 1.02rem;
+  line-height: 1.02rem;
+}
+.youhui .jifen .jil {
+  margin-left: 0.27rem;
+}
+.youhui .jifen .jir {
+  display: flex;
+  margin-right: 0.26rem;
+}
+.youhui .jifen .jir .j1 {
+  width: 1.51rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  text-align: center;
+  color: #e2e2e2;
+  border: 0.01rem solid #d9d9d9;
+  border-radius: 0.04rem;
+  margin-top: 0.16rem;
+}
+.youhui .jifen .jir .j2 {
+  width: 0.74rem;
+  height: 0.73rem;
+  line-height: 0.73rem;
+  text-align: center;
+  color: #fff;
+  background-color: #f26b11;
+  border-radius: 0.04rem;
+  margin-top: 0.16rem;
+  margin: 0.16rem 0.2rem 0 0.09rem;
+}
+.youhui .jifen .jir .j3 {
+  font-size: 0.2rem;
+  color: #9b9b9b;
+}
+.youhui .jifen .jir .j3 span {
+  color: #d83b4c;
+}
+.add {
+  height: 5.2rem;
+  background-color: #fff;
+  margin-top: 0.11rem;
+  padding: 0 0.36rem 0 0.27rem;
+}
+.add .top {
+  height: 2.12rem;
+  border-bottom: 0.01rem solid #efefef;
+  padding-top: 0.24rem;
+}
+.add .top .box {
+  display: flex;
+  justify-content: space-between;
+  height: 0.44rem;
+  font-size: 0.22rem;
+  color: #696969;
+}
+.add .top .box .right {
+  color: #e43033;
+}
+.add p {
+  font-size: 0.32rem;
+  color: #595959;
+  margin-top: 0.53rem;
+  margin-left: 3.8rem;
+}
+.add p span {
+  color: #d63431;
+}
+.add input {
+  width: 3.55rem;
+  height: 1.12rem;
+  background-color: #f26b11;
+  font-size: 0.28rem;
+  color: #fff;
+  border-radius: 0.03rem;
+  margin-left: 1.67rem;
+  margin-top: 0.45rem;
+}

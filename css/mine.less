@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+@import "./public.css";
+
+@base: 100;
+
+// 头像区域
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 180rem / @base;
+    background-color: #f26b11;
+    padding: 27rem / @base 38rem / @base 0 32rem / @base;
+    .left {
+        display: flex;
+        width: 242rem / @base;
+        height: 154rem / @base;
+        .pic {
+            display: flex;
+            width: 154rem / @base;
+            height: 154rem / @base;
+            border-radius: 50%;
+            background-color: #fff;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 142rem / @base;
+                height: 142rem / @base;
+                border-radius: 50%;
+            }
+        }
+        .txt {
+            width: 66rem / @base;
+            height: 96rem / @base;
+            margin-top: 34rem / @base;
+            margin-left: 25rem / @base;
+            .p1 {
+                line-height: 52rem / @base;
+                font-size: 28rem / @base;
+                color: #fff;
+            }
+            .p2 {
+                line-height: 44rem / @base;
+                font-size: 20rem / @base;
+                color: #2e1904;
+            }
+        }
+    }
+    button {
+        width: 159rem / @base;
+        height: 71rem / @base;
+        background-color: #fff;
+        border-radius: 3rem / @base;
+        font-size: 24rem / @base;
+        color: #f65d00;
+        margin-top: 48rem / @base;
+    }
+}
+// 中间区域
+.midd {
+    display: flex;
+    justify-content: space-between;
+    height: 142rem / @base;
+    background-color: #fff;
+    .box {
+        width: 198rem / @base;
+        img {
+            margin-top: 35rem / @base;
+            margin-left: 80rem / @base;
+        }
+        .pic1 {
+            width: 34rem / @base;
+            height: 34rem / @base;
+        }
+        .pic2 {
+            width: 38rem / @base;
+            height: 30rem / @base;
+        }
+        .pic3 {
+            width: 34rem / @base;
+            height: 29rem / @base;
+        }
+        p {
+            font-size: 22rem / @base;
+            color: #626262;
+            text-align: center;
+            margin-top: 20rem / @base;
+        }
+    }
+}
+// 主要内容区域
+.content {
+    height: 716rem / @base;
+    background-color: #fff;
+    margin-top: 20rem / @base;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        height: 111rem / @base;
+        line-height: 111rem / @base;
+        border-bottom: 1rem / @base solid #d9d9d9;
+        .left {
+            img {
+                margin-top: 36rem / @base;
+                margin-left: 37rem / @base;
+            }
+            .pc1 {
+                width: 36rem / @base;
+                height: 40rem / @base;
+            }
+            .pc2 {
+                width: 36rem / @base;
+                height: 36rem / @base;
+            }
+            .pc3 {
+                width: 46rem / @base;
+                height: 32rem / @base;
+            }
+            .pc4 {
+                width: 36rem / @base;
+                height: 34rem / @base;
+            }
+            .pc5 {
+                width: 38rem / @base;
+                height: 36rem / @base;
+            }
+            span {
+                font-size: 24rem / @base;
+                color: #a3a3a3;
+                margin-left: 24rem / @base;
+            }
+        }
+        .right {
+            span {
+                font-size: 22rem / @base;
+                color: #f45f0d;
+                margin-right: 21rem / @base;
+            }
+            img {
+                width: 19rem / @base;
+                height: 26rem / @base;
+                margin-right: 38rem / @base;
+                margin-top: 45rem / @base;
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+@import "./public.css";
+
+@base: 100;
+
+// 顶部区域
+.h1 {
+    display: flex;
+    height: 88rem / @base;
+    background-color: #fff;
+    padding: 40rem / @base 35rem / @base 0 29rem / @base;
+    justify-content: space-between;
+    align-items: center;
+    .p1 {
+        width: 17rem / @base;
+        height: 29rem / @base;
+    }
+    .p2 {
+        width: 150rem / @base;
+        height: 31rem / @base;
+    }
+    .lue {
+        display: flex;
+        justify-content: space-between;
+        width: 54rem / @base;
+        height: 12rem / @base;
+        span {
+            display: inline-block;
+            width: 12rem / @base;
+            height: 12rem / @base;
+            background-color: #000;
+            border-radius: 50%;
+        }
+    }
+}
+// 搜索区域
+.search {
+    position: relative;
+    background-color: #fff;
+    img {
+        position: absolute;
+        width: 26rem / @base;
+        height: 27rem / @base;
+        left: 285rem / @base;
+        top: 26rem / @base;
+    }
+    input {
+        width: 624rem / @base;
+        height: 77rem / @base;
+        background-color: #f26b11;
+        font-size: 24rem / @base;
+        color: #fff;
+        text-align: center;
+        border-radius: 35rem / @base;
+        margin-left: 63rem / @base;
+    }
+}
+// 主要内容区域
+.content {
+    height: 958rem / @base;
+    background-color: #fff;
+    padding: 29rem / @base 24rem / @base 0 23rem / @base;
+    .box {
+        display: flex;
+        height: 185rem / @base;
+        border-bottom: 1rem / @base solid #d1d1d1;
+        margin-top: 21rem / @base ;
+    }
+    img {
+        margin-left: 26rem / @base;
+    }
+    .im1 {
+        width: 130rem / @base;
+        height: 148rem / @base;
+    }
+    .im2 {
+        width: 130rem / @base;
+        height: 160rem / @base;
+    }
+    .im3 {
+        width: 130rem / @base;
+        height: 150rem / @base;
+    }
+    .im4 {
+        width: 130rem / @base;
+        height: 150rem / @base;
+    }
+    .txt {
+        margin-left: 41rem / @base;
+        .p1 {
+            line-height: 37rem / @base;
+            font-size: 24rem / @base;
+            color: #333;
+        }
+        .p2 {
+            line-height: 61rem / @base;
+            font-size: 18rem / @base;
+            color: #e43a3d;
+            span {
+                font-size: 24rem / @base;
+            }
+        }
+        .p3 {
+            line-height: 33rem / @base;
+            font-size: 20rem / @base;
+            color: #d2d2d2;
+        }
+    }
+}

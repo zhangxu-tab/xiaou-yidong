@@ -1,0 +1,292 @@
+@charset "utf-8";
+@import "public.css";
+.pic {
+  height: 7.5rem;
+}
+.pic .im1 {
+  width: 7.5rem;
+  height: 4.2rem;
+}
+.pic .im2 {
+  width: 7.5rem;
+  height: 3.27rem;
+}
+.detail {
+  height: 1.85rem;
+  background-color: #fff;
+  padding-top: 0.22rem;
+}
+.detail p {
+  margin-left: 0.37rem;
+  margin-right: 0.46rem;
+}
+.detail .tit {
+  line-height: 0.48rem;
+  font-size: 0.28rem;
+  color: #333333;
+}
+.detail .t1 {
+  line-height: 0.79rem;
+}
+.detail .t1 .money {
+  font-size: 0.24rem;
+  color: #e3393a;
+}
+.detail .t1 .zhu {
+  font-size: 0.2rem;
+  color: #acacac;
+  margin-left: 0.18rem;
+}
+.sum {
+  height: 4rem;
+  background-color: #fff;
+  font-size: 0.24rem;
+  color: #464646;
+  margin-top: 0.17rem;
+}
+.sum .cu {
+  display: flex;
+  justify-content: space-between;
+  height: 0.98rem;
+  line-height: 0.98rem;
+  border-bottom: 0.01rem solid #f1f1f1;
+  padding: 0 0.21rem 0 0.25rem;
+}
+.sum .cu .cul .s1 {
+  display: inline-block;
+  width: 0.64rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  text-align: center;
+  font-size: 0.18rem;
+  color: #b32718;
+  border: 0.01rem solid #b32718;
+  border-radius: 0.04rem;
+  margin-left: 0.15rem;
+}
+.sum .cu .cul .s2 {
+  font-size: 0.22rem;
+  margin-left: 0.16rem;
+}
+.sum .cu .cur {
+  width: 0.24rem;
+  height: 0.98rem;
+  background: url("../images/detail_images/arrow.jpg") no-repeat;
+  background-size: 0.24rem 0.14rem;
+  background-position: 0 0.44rem;
+}
+.sum .num {
+  display: flex;
+  justify-content: space-between;
+  height: 1.08rem;
+  line-height: 1.08rem;
+  border-bottom: 0.01rem solid #f1f1f1;
+  padding: 0 0.21rem 0 0.25rem;
+}
+.sum .num .numr {
+  width: 2.2rem;
+  height: 0.57rem;
+  line-height: 0.57rem;
+  border: 0.01rem solid #515151;
+  border-radius: 0.04rem;
+  margin-right: 0.09rem;
+  margin-top: 0.25rem;
+}
+.sum .num .numr span {
+  display: inline-block;
+  width: 0.57rem;
+  height: 0.57rem;
+  text-align: center;
+}
+.sum .num .numr .shu {
+  width: 0.79rem;
+  height: 0.57rem;
+  border-left: 0.01rem solid #515151;
+  border-right: 0.01rem solid #515151;
+}
+.sum .xing {
+  display: flex;
+  justify-content: space-between;
+  height: 1.49rem;
+  padding: 0.41rem 0.21rem 0 0.25rem;
+}
+.sum .xing .gui {
+  height: 0.59rem;
+  line-height: 0.59rem;
+  margin-top: 0.28rem;
+}
+.sum .xing .gui span {
+  display: inline-block;
+  height: 0.59rem;
+  line-height: 0.59rem;
+  text-align: center;
+}
+.sum .xing .gui .name {
+  font-size: 0.22rem;
+  color: #b4b4b4;
+}
+.sum .xing .gui .ke1 {
+  width: 1.5rem;
+  font-size: 0.2rem;
+  color: #fff;
+  background-color: #e43a3d;
+  border-radius: 0.02rem;
+  margin-left: 0.71rem;
+}
+.sum .xing .gui .ke2 {
+  width: 1.17rem;
+  font-size: 0.2rem;
+  color: #fff;
+  background-color: #e1e1e3;
+  border-radius: 0.02rem;
+  margin-left: 0.15rem;
+}
+.sum .xing .xingr {
+  width: 0.24rem;
+  height: 0.98rem;
+  background: url("../images/detail_images/arrow.jpg") no-repeat;
+  background-size: 0.24rem 0.14rem;
+}
+.juti {
+  min-width: 0.5rem;
+  margin-top: 0.21rem;
+}
+.juti .ti {
+  height: 1rem;
+  line-height: 1rem;
+  background-color: #fff;
+  font-size: 0.28rem;
+  color: #444;
+  padding-left: 0.25rem;
+}
+.juti .pi1 {
+  width: 7.5rem;
+  height: 4.58rem;
+}
+.juti .pi2 {
+  width: 7.5rem;
+  height: 6.48rem;
+}
+.juti .pi3 {
+  width: 7.5rem;
+  height: 5.92rem;
+}
+.juti .pi4 {
+  width: 7.5rem;
+  height: 3.5rem;
+}
+.juti .pi5 {
+  width: 7.5rem;
+  height: 3.31rem;
+}
+.ping {
+  min-height: 1rem;
+  background-color: #fff;
+  margin-top: 0.3rem;
+}
+.ping .mu {
+  height: 0.93rem;
+  line-height: 0.93rem;
+  font-size: 0.28rem;
+  color: #454545;
+  padding: 0 0.23rem;
+  border-bottom: 0.01rem solid #eee;
+}
+.ping .midd {
+  height: 3.78rem;
+  padding: 0 0.23rem;
+  border-bottom: 0.01rem solid #eee;
+}
+.ping .midd .num {
+  line-height: 0.55rem;
+  font-size: 0.18rem;
+  color: #676767;
+  margin-top: 0.14rem;
+}
+.ping .midd .pin {
+  line-height: 0.54rem;
+  font-size: 0.24rem;
+  color: #868686;
+}
+.ping .midd figure {
+  margin-top: 0.19rem;
+}
+.ping .midd figure .tu1 {
+  width: 1.54rem;
+  height: 1.51rem;
+  margin-left: 0.09rem;
+}
+.ping .midd figure .tu2 {
+  width: 1.6rem;
+  height: 1.51rem;
+  margin: 0 0.19rem;
+}
+.ping .midd figure .tu3 {
+  width: 1.54rem;
+  height: 1.51rem;
+}
+.ping .midd .riqi {
+  line-height: 0.76rem;
+  font-size: 0.18rem;
+  color: #999;
+  margin-top: 0.09rem;
+}
+.ping .word {
+  display: flex;
+  justify-content: space-between;
+  height: 0.91rem;
+  line-height: 0.91rem;
+  font-size: 0.22rem;
+  color: #999;
+  padding: 0 0.23rem;
+}
+.ping .word .wordr img {
+  width: 0.11rem;
+  height: 0.11rem;
+  margin-top: 0.4rem;
+  margin-left: 0.08rem;
+}
+.ping .shop {
+  display: flex;
+  height: 1.14rem;
+}
+.ping .shop .car {
+  width: 1.72rem;
+  height: 1.13rem;
+  border-top: 0.01rem solid #f1f1f1;
+  background: url("../images/public/icon_7.jpg") no-repeat;
+  background-size: 0.56rem 0.53rem;
+  background-position: 0.57rem 0.3rem;
+}
+.ping .shop .car .cir {
+  width: 0.24rem;
+  height: 0.24rem;
+  line-height: 0.24rem;
+  text-align: center;
+  background-color: #e6393d;
+  font-size: 0.14rem;
+  color: #fff;
+  border-radius: 50%;
+  margin-top: 0.22rem;
+  margin-left: 0.9rem;
+}
+.ping .shop .car p {
+  font-size: 0.18rem;
+  color: #878787;
+  margin-top: 0.42rem;
+  margin-left: 0.55rem;
+}
+.ping .shop input {
+  width: 2.9rem;
+  height: 1.14rem;
+  background-color: #f26b11;
+  font-size: 0.26rem;
+  color: #fff;
+}
+.ping .shop button {
+  width: 2.88rem;
+  height: 1.14rem;
+  background-color: #e43a3d;
+  font-size: 0.26rem;
+  color: #fff;
+}

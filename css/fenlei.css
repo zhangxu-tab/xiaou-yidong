@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import "public.css";
+.content {
+  display: flex;
+  height: 12.64rem;
+  background-color: #fff;
+}
+.content ul {
+  width: 1.63rem;
+  height: 12.53rem;
+  border-right: 0.01rem solid #d9d9d9;
+  padding-top: 0.11rem;
+}
+.content ul li {
+  height: 1.12rem;
+  line-height: 1.12rem;
+  font-size: 0.24rem;
+}
+.content ul li a {
+  color: #666;
+  margin-left: 0.46rem;
+}
+.content ul .no1 {
+  position: relative;
+}
+.content ul .no1 span {
+  display: inline-block;
+  position: absolute;
+  width: 0.08rem;
+  height: 0.52rem;
+  background-color: #f26b11;
+  top: 0.29rem;
+  left: 0;
+}
+.content ul .no1 a {
+  color: #f26d10;
+}
+.content .right {
+  width: 5.86rem;
+  height: 12.53rem;
+  padding-top: 0.11rem;
+}
+.content .right .wash {
+  height: 5.42rem;
+}
+.content .right .wash .title {
+  display: flex;
+  justify-content: space-between;
+  height: 1.12rem;
+  line-height: 1.12rem;
+  font-size: 0.24rem;
+  color: #464646;
+  padding: 0 0.44rem 0 0.55rem;
+}
+.content .right .wash .title .titr {
+  font-size: 0.22rem;
+  color: #666;
+}
+.content .right .wash .title .titr img {
+  width: 0.11rem;
+  height: 0.12rem;
+  margin-top: 0.5rem;
+}
+.content .right .wash .pic {
+  display: flex;
+  flex-wrap: wrap;
+  width: 5.86rem;
+  height: 4.24rem;
+  margin-top: 0.07rem;
+}
+.content .right .wash .pic .box {
+  width: 1.95rem;
+  height: 1.95rem;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #878787;
+}
+.content .right .wash .pic .box img {
+  margin-left: 0.26rem;
+}
+.content .right .wash .pic .box .p1 {
+  width: 1.47rem;
+  height: 1.48rem;
+}
+.content .right .wash .pic .box .p2 {
+  width: 1.3rem;
+  height: 1.48rem;
+}
+.content .right .wash .pic .box .p3 {
+  width: 1.47rem;
+  height: 1.6rem;
+}
+.content .right .wash .pic .box .p4 {
+  width: 1.47rem;
+  height: 1.5rem;
+  margin-left: 0;
+}
+.content .right .wash .pic .box .p5 {
+  width: 1.3rem;
+  height: 1.5rem;
+  margin-left: 0;
+}
+.content .right .wash .pic .box .p6 {
+  width: 1.34rem;
+  height: 1.5rem;
+}
+.content .right .wash .pic .box p {
+  margin-top: 0.1rem;
+}
+.content .right .wash .pic .box1 {
+  margin-top: 0.34rem;
+}
+.content .right .wash1 {
+  margin-top: 0.72rem;
+}
+.content .right .wash1 .p7 {
+  width: 1.47rem;
+  height: 1.41rem;
+  margin-left: 0;
+}
+.content .right .wash1 .p8 {
+  width: 1.3rem;
+  height: 1.41rem;
+  margin-left: 0;
+}
+.content .right .wash1 .p9 {
+  width: 1.47rem;
+  height: 1.41rem;
+}

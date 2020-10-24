@@ -1,0 +1,179 @@
+@charset "utf-8";
+@import "public.css";
+.show {
+  height: 9.44rem;
+  background-color: #fff;
+  padding-top: 0.27rem;
+}
+.show .box {
+  display: flex;
+  justify-content: space-between;
+  height: 1.72rem;
+  box-shadow: 0 0.01rem 0.03rem 0.01rem rgba(0, 0, 0, 0.1);
+}
+.show .box .left {
+  display: flex;
+}
+.show .box .left .sp1 {
+  display: inline-block;
+  width: 0.33rem;
+  height: 0.33rem;
+  border-radius: 50%;
+  border: 0.02rem solid #b1271a;
+  background: url("../images/shoping_car_images/select.jpg") no-repeat;
+  background-size: 0.17rem 0.13rem;
+  background-position: 0.07rem 0.09rem;
+  margin-top: 0.69rem;
+  margin-left: 0.24rem;
+}
+.show .box .left .img1 {
+  width: 1.01rem;
+  height: 1.02rem;
+  margin-top: 0.39rem;
+  margin-left: 0.42rem;
+}
+.show .box .left .txt {
+  height: 1.67rem;
+  margin-left: 0.36rem;
+  margin-top: 0.06rem;
+}
+.show .box .left .txt .p1 {
+  line-height: 0.55rem;
+  font-size: 0.24rem;
+  color: #333;
+}
+.show .box .left .txt .p2 {
+  line-height: 0.52rem;
+  font-size: 0.22rem;
+  color: #656565;
+}
+.show .box .left .txt .p3 {
+  line-height: 0.47rem;
+  font-size: 0.22rem;
+  color: #e5383c;
+}
+.show .box .right {
+  display: flex;
+  width: 2.1rem;
+  height: 0.57rem;
+  border: 0.01rem solid #515151;
+  border-radius: 0.03rem;
+  margin-top: 0.89rem;
+  margin-right: 0.31rem;
+}
+.show .box .right .s {
+  text-align: center;
+  height: 0.57rem;
+  line-height: 0.57rem;
+  color: #464646;
+  font-size: 0.2rem;
+}
+.show .box .right .s1 {
+  width: 0.62rem;
+}
+.show .box .right .s2 {
+  width: 0.79rem;
+  font-weight: bold;
+  border-left: 0.01rem solid #515151;
+  border-right: 0.01rem solid #515151;
+}
+.show .box .right .s3 {
+  width: 0.59rem;
+}
+.show .box1 {
+  margin-top: 0.3rem;
+}
+.show .box1 .img2 {
+  width: 1.09rem;
+  height: 0.97rem;
+  margin-left: 0;
+  margin-top: 0.3rem;
+}
+.show .box1 .right {
+  margin-right: 0.31rem;
+}
+.show .box1 input {
+  width: 0.98rem;
+  height: 1.72rem;
+  background-color: #e43a3d;
+  font-size: 0.2rem;
+  color: #fff;
+}
+.show .box2 {
+  margin-top: 0.3rem;
+}
+.show .box2 .sp2 {
+  display: inline-block;
+  width: 0.33rem;
+  height: 0.33rem;
+  border-radius: 50%;
+  border: 0.02rem solid #d4d4d4;
+  margin-top: 0.69rem;
+  margin-left: 0.24rem;
+}
+.show .box2 .img3 {
+  width: 1.02rem;
+  height: 0.82rem;
+  margin-top: 0.46rem;
+  margin-left: 0.42rem;
+}
+.sum {
+  display: flex;
+  justify-content: space-between;
+  height: 1.14rem;
+  border-top: 0.01rem solid #e5e5e5;
+  background-color: #fff;
+}
+.sum .left {
+  display: flex;
+  margin-left: 0.24rem;
+  margin-top: 0.46rem;
+}
+.sum .left .cir {
+  width: 0.34rem;
+  height: 0.34rem;
+  text-align: center;
+  border-radius: 50%;
+  border: 0.02rem solid #b22a1c;
+}
+.sum .left .cir img {
+  width: 0.17rem;
+  height: 0.13rem;
+  margin-top: 0.1rem;
+}
+.sum .left span {
+  font-size: 0.22rem;
+  color: #666;
+  margin-left: 0.15rem;
+  margin-top: 0.07rem;
+}
+.sum .right {
+  display: flex;
+}
+.sum .right .text {
+  width: 2.25rem;
+  margin-top: 0.15rem;
+  margin-right: 0.35rem;
+}
+.sum .right .text .ji {
+  line-height: 0.45rem;
+  font-size: 0.26rem;
+  color: #333;
+  margin-left: 0.36rem;
+}
+.sum .right .text .ji span {
+  color: #eb6f71;
+}
+.sum .right .text .yun {
+  width: 2.65rem;
+  line-height: 0.37rem;
+  font-size: 0.18rem;
+  color: #cdcdcd;
+}
+.sum .right input {
+  width: 2.47rem;
+  height: 1.14rem;
+  background-color: #f26b11;
+  font-size: 0.28rem;
+  color: #fff;
+}

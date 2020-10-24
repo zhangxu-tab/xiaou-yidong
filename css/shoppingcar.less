@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+@import "./public.css";
+
+@base: 100;
+
+// 物品展示区
+.show {
+    height: 944rem / @base;
+    background-color: #fff;
+    padding-top: 27rem / @base;
+    .box {
+        display: flex;
+        justify-content: space-between;
+        height: 172rem / @base;
+        box-shadow: 0 1rem / @base 3rem / @base 1rem / @base rgba(0, 0, 0, .1);
+        .left {
+            display: flex;
+            .sp1 {
+                display: inline-block;
+                width: 33rem / @base;
+                height: 33rem / @base;
+                border-radius: 50%;
+                border: 2rem / @base solid #b1271a;
+                background: url("../images/shoping_car_images/select.jpg") no-repeat;
+                background-size: 17rem / @base 13rem / @base;
+                background-position: 7rem / @base 9rem / @base;
+                margin-top: 69rem / @base;
+                margin-left: 24rem / @base;
+            }
+            .img1 {
+                width: 101rem / @base;
+                height: 102rem / @base;
+                margin-top: 39rem / @base;
+                margin-left: 42rem / @base;
+            }
+            .txt {
+                height: 167rem / @base;
+                margin-left: 36rem / @base;
+                margin-top: 6rem / @base;
+                .p1 {
+                    line-height: 55rem / @base;
+                    font-size: 24rem / @base;
+                    color: #333;
+                }
+                .p2 {
+                    line-height: 52rem / @base;
+                    font-size: 22rem / @base;
+                    color: #656565;
+                }
+                .p3 {
+                    line-height: 47rem / @base;
+                    font-size: 22rem / @base;
+                    color: #e5383c;
+                }
+            }
+        }
+        .right {
+            display: flex;
+            width: 210rem / @base;
+            height: 57rem / @base;
+            border: 1rem / @base solid #515151;
+            border-radius: 3rem / @base;
+            margin-top: 89rem / @base;
+            margin-right: 31rem / @base;
+            .s {
+                text-align: center;
+                height: 57rem / @base;
+                line-height: 57rem / @base;
+                color: #464646;
+                font-size: 20rem / @base;
+            }
+            .s1 {
+                width: 62rem / @base;
+            }
+            .s2 {
+                width: 79rem / @base;
+                font-weight: bold;
+                border-left: 1rem / @base solid #515151;
+                border-right: 1rem / @base solid #515151;
+            }
+            .s3 {
+                width: 59rem / @base;
+            }
+        }
+    }
+    .box1 {
+        margin-top: 30rem / @base;
+        .img2 {
+            width: 109rem / @base;
+            height: 97rem / @base;
+            margin-left: 0;
+            margin-top: 30rem / @base;
+        }
+        .right {
+            margin-right: 31rem / @base;
+        }
+        input {
+            width: 98rem / @base;
+            height: 172rem / @base;
+            background-color: #e43a3d;
+            font-size: 20rem / @base;
+            color: #fff;
+        }
+    }
+    .box2 {
+        margin-top: 30rem / @base;
+        .sp2 {
+            display: inline-block;
+            width: 33rem / @base;
+            height: 33rem / @base;
+            border-radius: 50%;
+            border: 2rem / @base solid #d4d4d4;
+            margin-top: 69rem / @base;
+            margin-left: 24rem / @base;
+        }
+        .img3 {
+            width: 102rem / @base;
+            height: 82rem / @base;
+            margin-top: 46rem / @base;
+            margin-left: 42rem / @base;
+        }
+    }
+}
+// 结算区域
+.sum {
+    display: flex;
+    justify-content: space-between;
+    height: 114rem / @base;
+    border-top: 1rem / @base solid #e5e5e5;
+    background-color: #fff;
+    .left {
+        display: flex;
+        margin-left: 24rem / @base;
+        margin-top: 46rem / @base;
+        .cir {
+            width: 34rem / @base;
+            height: 34rem / @base;
+            text-align: center;
+            border-radius: 50%;
+            border: 2rem / @base solid #b22a1c;
+            img {
+                width: 17rem / @base;
+                height: 13rem / @base;
+                margin-top: 10rem / @base;
+            }
+        }
+        span {
+            font-size: 22rem / @base;
+            color: #666;
+            margin-left: 15rem / @base;
+            margin-top: 7rem / @base      ;
+        }
+    }
+    .right {
+        display: flex;
+        .text {
+            width: 225rem / @base;
+            margin-top: 15rem / @base;
+            margin-right: 35rem / @base;
+            .ji {
+                line-height: 45rem / @base;
+                font-size: 26rem / @base;
+                color: #333;
+                margin-left: 36rem / @base;
+                span {
+                    color: #eb6f71;
+                }
+            }
+            .yun {
+                width: 265rem / @base;
+                line-height: 37rem / @base;
+                font-size: 18rem / @base;
+                color: #cdcdcd;
+            }
+        }
+        input {
+            width: 247rem / @base;
+            height: 114rem / @base;
+            background-color: #f26b11;
+            font-size: 28rem / @base;
+            color: #fff;
+        }
+    }
+}
